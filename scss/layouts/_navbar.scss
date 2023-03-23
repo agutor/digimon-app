@@ -1,0 +1,9 @@
+.navbar{
+    border-bottom: 2px solid $colorSecundario;
+    box-shadow:0 0 10px $colorSecundario;
+    background-color: $colorPrincipal;
+    color: $fontColor;
+    img{
+        width: 200px;
+    }
+}

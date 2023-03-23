@@ -1,0 +1,61 @@
+.digiProfile{
+    margin: 5px;
+    padding: 5px;
+    background-color: $colorPrincipal;
+    border: 2px solid $colorSecundario;
+    box-shadow:0 0 10px $colorSecundario;
+    border-radius: 6px
+}
+
+h1{
+    @include flex (flex , row, center, center);
+    background-color: $colorPrincipal;
+    margin: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border:2px solid $colorSecundario;
+    box-shadow:0 0 10px $colorSecundario;
+    border-radius:7px;
+}
+.nav-tabs {
+    .nav-link.active{
+        color: $colorSecundario;
+        background-color: $colorPrincipal;
+        border-color: $colorSecundario;
+    }
+    color: $colorPrincipal;
+    background-color: $colorSecundario;
+    border-radius: 6px;
+    border-color: $colorSecundario;
+    button{
+        color: $colorPrincipal;
+    }
+}
+
+.sprites{
+    width: 40px;
+    padding: 3px;
+    border: 1px solid $colorAcento;
+}
+
+.evoDigiInfo{
+    @include flex (flex, column, flex-start, center)
+}
+.digiInfo{
+    @include flex (flex, column, flex-start, center)
+}
+
+.digiInfo{
+    .card{
+        background-color: $colorPrincipal;
+        .list-group-item{
+            background-color: $colorPrincipal;
+            color: $fontColor;
+            border-color: $colorSecundario;
+        }
+    }
+}
+
+
+
+

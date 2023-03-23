@@ -1,0 +1,18 @@
+.card{
+    margin: 40px;
+    border-radius: 6px;
+    border: 1px solid $colorSecundario;
+    box-shadow:0 0 10px $colorSecundario;
+    img{
+        width: 60px;
+    }
+    background-color: $colorPrincipal;
+    .list-group-item{
+        background-color: $colorPrincipal;
+        color: $fontColor;
+        border-color: $colorSecundario;
+    }
+    a{
+        @include flex (flex, row, space-around, center);
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>Greymon</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img src="../../img/logo.webp" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Versiones</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../versions/ver1.html">Version 1</a></li>
+                            <li><a class="dropdown-item" href="../versions/ver2.html">Version 2</a></li>
+                            <li><a class="dropdown-item" href="../versions/ver3.html">Version 3</a></li>
+                            <li><a class="dropdown-item" href="../versions/ver4.html">Version 4</a></li>
+                            <li><a class="dropdown-item" href="../versions/ver5.html">Version 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <main data-aos="zoom-out">
+    <h1>Greymon</h1>
+    <img src="../../img/grey.webp" alt="greymon">
+        <div class="digiProfile">
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pre-evo-tab" data-bs-toggle="tab" data-bs-target="#digiPrevo" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Pre-Evo</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#digiInfo" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Info</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="evolution-tab" data-bs-toggle="tab" data-bs-target="#digiEvo" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Evolution</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="digiInfo" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <div class="digiInfo">
+                        <div class="card" style="width: 18rem;">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><img class="sprites" src="../../img/sprites/greymon.webp" alt="greymon"></li>
+                                <li class="list-group-item">Stage: <span class="acento">Adult</span> </li>
+                                <li class="list-group-item">Type: <span class="acento">Vaccine</span> </li>
+                                <li class="list-group-item">Sleep Time: <span class="acento">11:00 PM</span>  </li>
+                                <li class="list-group-item">Power: <span class="acento">75</span> </li>
+                            </ul>
+                        </div>
+                        <p>A Dinosaur Digimon with skin hardened into a protective carapace around its skull. </p>
+                        <p>Aggressive by nature, Greymon uses its sharp claws and colossal horns as lethal weapons. Taming it earns you an intelligent ally of unmatched strength.  </p>
+                        <p>Its special move is Mega Flame, by which it shoots searing flames from its mouth, incinerating all. </p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="digiPrevo" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <div class="evoDigiInfo">
+                        <a href="./agumon.html"><h3>Agumon</h3>
+                        <img class="sprites" src="../../img/sprites/agumon.webp" alt="agumon"></a>
+                        <ul>
+                            <li>Care Mistakes: <span class="acento">0-2</span>  </li>
+                            <li>Training: <span class="acento">16+</span>  </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="digiEvo" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <div class="evoDigiInfo">
+                        <a href="./metalGreymon.html"><h3>Metal Greymon</h3>
+                        <img class="sprites" src="../../img/sprites/metalGreymon.webp" alt="metal greymon"></a>
+                        <ul>
+                            <li>15 Battles: <span class="acento">12-15 Victories</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="digiEvo" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">hola3</div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

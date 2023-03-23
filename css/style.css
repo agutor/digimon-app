@@ -1,3 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../img/background.webp);
+  background-color: black;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+img {
+  width: 17rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+hr {
+  color: #F4ED9E;
+}
+
+.acento {
+  color: #F4ED9E;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: 0rem;
+}
+
+.digiProfile {
+  margin: 5px;
+  padding: 5px;
+  background-color: black;
+  border: 2px solid #3FB950;
+  box-shadow: 0 0 10px #3FB950;
+  border-radius: 6px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 40px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #3FB950;
+  box-shadow: 0 0 10px #3FB950;
+  border-radius: 7px;
+}
+
+.nav-tabs {
+  color: black;
+  background-color: #3FB950;
+  border-radius: 6px;
+  border-color: #3FB950;
+}
+.nav-tabs .nav-link.active {
+  color: #3FB950;
+  background-color: black;
+  border-color: #3FB950;
+}
+.nav-tabs button {
+  color: black;
+}
+
+.sprites {
+  width: 40px;
+  padding: 3px;
+  border: 1px solid #F4ED9E;
+}
+
+.evoDigiInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.digiInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.digiInfo .card {
+  background-color: black;
+}
+.digiInfo .card .list-group-item {
+  background-color: black;
+  color: white;
+  border-color: #3FB950;
+}
+
+.navbar {
+  border-bottom: 2px solid #3FB950;
+  box-shadow: 0 0 10px #3FB950;
+  background-color: black;
+  color: white;
+}
+.navbar img {
+  width: 200px;
+}
+
+.card {
+  margin: 40px;
+  border-radius: 6px;
+  border: 1px solid #3FB950;
+  box-shadow: 0 0 10px #3FB950;
+  background-color: black;
+}
+.card img {
+  width: 60px;
+}
+.card .list-group-item {
+  background-color: black;
+  color: white;
+  border-color: #3FB950;
+}
+.card a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
