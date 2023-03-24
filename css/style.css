@@ -94,7 +94,7 @@ h1 {
   align-items: center;
 }
 .evoDigiInfo img {
-  animation: pulse 1s 4;
+  animation: pulse 1s 3;
   box-shadow: 0 0 0 0 #F4ED9E;
 }
 @keyframes pulse {
@@ -117,6 +117,10 @@ h1 {
   background-color: black;
   color: white;
   border-color: #3FB950;
+}
+
+p {
+  width: 17rem;
 }
 
 .navbar {

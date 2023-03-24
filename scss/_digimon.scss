@@ -41,7 +41,7 @@ h1{
 .evoDigiInfo{
     @include flex (flex, column, flex-start, center);
     img {
-    animation: pulse 1s 4 ;
+    animation: pulse 1s 3 ;
     box-shadow: 0 0 0 0 $colorAcento;
     }
     @keyframes pulse {
@@ -63,5 +63,8 @@ h1{
             border-color: $colorSecundario;
         }
     }
+}
+p{
+    width: 17rem;
 }
 
