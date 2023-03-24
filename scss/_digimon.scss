@@ -39,7 +39,16 @@ h1{
 }
 
 .evoDigiInfo{
-    @include flex (flex, column, flex-start, center)
+    @include flex (flex, column, flex-start, center);
+    img {
+    animation: pulse 1s 4 ;
+    box-shadow: 0 0 0 0 $colorAcento;
+    }
+    @keyframes pulse {
+        to {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); 
+        }
+    }
 }
 .digiInfo{
     @include flex (flex, column, flex-start, center)
@@ -55,7 +64,4 @@ h1{
         }
     }
 }
-
-
-
 

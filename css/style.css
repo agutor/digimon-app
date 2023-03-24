@@ -93,6 +93,15 @@ h1 {
   justify-content: flex-start;
   align-items: center;
 }
+.evoDigiInfo img {
+  animation: pulse 1s 4;
+  box-shadow: 0 0 0 0 #F4ED9E;
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+}
 
 .digiInfo {
   display: flex;
