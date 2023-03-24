@@ -44,7 +44,7 @@ h2 {
 }
 
 .digiProfile {
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
   background-color: black;
   border: 2px solid #3FB950;
@@ -120,7 +120,7 @@ h1 {
 }
 
 p {
-  width: 17rem;
+  margin: 5px;
 }
 
 .navbar {
