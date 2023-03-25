@@ -41,12 +41,12 @@ h1{
 .evoDigiInfo{
     @include flex (flex, column, flex-start, center);
     img {
-    animation: pulse 0.8s infinite;
+    animation: pulse 1s 2, pulse 1s 2 3s, pulse 1s 2 7s, pulse 1s 2 10s, pulse 1s 2 13s, pulse 1s 2 16s, pulse 1s 2 19s, pulse 1s 2 22s, pulse 1s 2 25s, pulse 1s 2 28s, pulse 1s 2 31s;
     box-shadow: 0 0 0 0 $colorAcento;
     }
     @keyframes pulse {
         to {
-        box-shadow: 0 0 0 5px rgba(255, 255, 255, 0); 
+            box-shadow: 0 0 0 8px rgba(255, 255, 255, 0); 
         }
     }
 }
