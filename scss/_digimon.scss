@@ -1,5 +1,5 @@
 .digiProfile{
-    margin: 10px;
+    margin: 0.625rem;
     padding: 5px;
     background-color: $colorPrincipal;
     border: 2px solid $colorSecundario;
@@ -41,12 +41,12 @@ h1{
 .evoDigiInfo{
     @include flex (flex, column, flex-start, center);
     img {
-    animation: pulse 1s 3 ;
+    animation: pulse 0.8s infinite;
     box-shadow: 0 0 0 0 $colorAcento;
     }
     @keyframes pulse {
         to {
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); 
+        box-shadow: 0 0 0 5px rgba(255, 255, 255, 0); 
         }
     }
 }
