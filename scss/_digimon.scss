@@ -64,6 +64,10 @@ h1{
         }
     }
 }
+.digiName{
+    @include flex (flex, row, space-between, center);
+    height: 64px;
+}
 p{
     margin: 5px;
 }
