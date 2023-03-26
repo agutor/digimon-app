@@ -4,7 +4,8 @@
     background-color: $colorPrincipal;
     border: 2px solid $colorSecundario;
     box-shadow:0 0 10px $colorSecundario;
-    border-radius: 6px
+    border-radius: 6px;
+    overflow-x: hidden;
 }
 
 h1{
@@ -49,12 +50,11 @@ h1{
             box-shadow: 0 0 0 8px rgba(255, 255, 255, 0); 
         }
     }
-}
-.digiInfo{
-    @include flex (flex, column, flex-start, center)
+    overflow-x: hidden;
 }
 
 .digiInfo{
+    @include flex (flex, column, flex-start, center);
     .card{
         background-color: $colorPrincipal;
         .list-group-item{
@@ -63,6 +63,7 @@ h1{
             border-color: $colorSecundario;
         }
     }
+    overflow-x: hidden;
 }
 .digiName{
     @include flex (flex, row, space-between, center);
@@ -70,5 +71,6 @@ h1{
 }
 p{
     margin: 5px;
+    overflow-x: hidden;
 }
 

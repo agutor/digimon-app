@@ -13,6 +13,7 @@ body{
     background-color: $colorPrincipal;
     background-attachment: fixed;
     background-size: contain;
+    overflow-x: hidden;
 }
 
 img{

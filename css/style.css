@@ -14,6 +14,7 @@ body {
   background-color: black;
   background-attachment: fixed;
   background-size: contain;
+  overflow-x: hidden;
 }
 
 img {
@@ -56,6 +57,7 @@ title, h1, h3 {
   border: 2px solid #3FB950;
   box-shadow: 0 0 10px #3FB950;
   border-radius: 6px;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -98,6 +100,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow-x: hidden;
 }
 .evoDigiInfo img {
   animation: pulse 1s 2, pulse 1s 2 3s, pulse 1s 2 7s, pulse 1s 2 10s, pulse 1s 2 13s, pulse 1s 2 16s, pulse 1s 2 19s, pulse 1s 2 22s, pulse 1s 2 25s, pulse 1s 2 28s, pulse 1s 2 31s;
@@ -114,8 +117,8 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow-x: hidden;
 }
-
 .digiInfo .card {
   background-color: black;
 }
@@ -135,6 +138,7 @@ h1 {
 
 p {
   margin: 5px;
+  overflow-x: hidden;
 }
 
 .navbar {
